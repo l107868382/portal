@@ -14,5 +14,7 @@ spring:
     show-sql: true
   thymeleaf:
     cache: false
+    mode: HTML5
+    encoding: UTF-8
   mvc:
     static-path-pattern: /static/**
